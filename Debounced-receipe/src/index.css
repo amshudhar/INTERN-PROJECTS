@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient( 90deg,  rgba(255,250,172,1) 10.3%, rgba(13,167,168,1) 148% );
+}
+
+ul{
+  list-style: none;
+  border-radius: 20px;
+  margin: 0px 600px 0px 600px;
+}
+
+input{
+  width: 400px;
+}
+li{
+  margin-left: -32px;
+  padding: 10px 20px;
+}
+
+.product{
+  width: 800px;
+  padding: 30px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}

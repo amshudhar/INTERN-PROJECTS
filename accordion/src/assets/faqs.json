@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the Accordion component?",
+    "answer": "The Accordion component is used to display a list of FAQs where users can expand or collapse each item."
+  },
+  {
+    "id": 2,
+    "question": "How does the Accordion component manage state?",
+    "answer": "It uses the useState hook to track the currently open FAQ ID."
+  },
+  {
+    "id": 3,
+    "question": "Can multiple FAQs be open at the same time?",
+    "answer": "No, only one FAQ can be open at a time."
+  },
+  {
+    "id": 4,
+    "question": "How do I style the Accordion component?",
+    "answer": "You can use CSS to style the Accordion component for a clean UI."
+  }
+]

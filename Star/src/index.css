@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.main{
+  background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+  margin: 100px 200px;
+  padding: 20px 40px;
+  text-align: center;
+}
+h1{
+  padding: 10px;
+}
+
+.star{
+  padding: 10px;
+}
+
+.main-star{
+  margin: 5px 10px;
+}
+
+p{
+  margin: 10px 0px;
+}
