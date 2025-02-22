@@ -16,3 +16,15 @@ body{
 .dec{
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .box{
+    padding: 0px 10px;
+    margin: 0px ;
+  }
+  .p-box{
+    padding: 0px 10px;
+    margin: 0px;
+  }
+}

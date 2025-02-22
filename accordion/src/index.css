@@ -19,7 +19,9 @@ h1 {
   margin: 40px ;
 }
 
-.accor{
+
+
+.accordion{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,10 +41,11 @@ h3 {
   margin: 10px ;
   border: 1px solid #ccc;
   border-radius: 15px;
+  
 }
 
 h3:hover {
-  background-color: #e1e1e1;
+  background-color: rgb(204, 255, 194);
 }
 
 p {

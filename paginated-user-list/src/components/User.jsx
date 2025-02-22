@@ -33,9 +33,9 @@ const UsersList = () => {
   return (
     <div className="" >
       <h2 className="text-center my-5 dec">USERS LIST</h2>
-      <div className="d-flex justify-content-around m-5">
+      <div className="d-flex justify-content-around my-5 p-box">
         {currentUsers.map((user) => (
-          <div key={user.id} className="bg-white px-5 py-3 rounded-5 my-5 text-center">
+          <div key={user.id} className="box bg-white px-5 py-3 rounded-5 my-5 text-center">
             <img className="my-3 border rounded-5 " src={user.image} alt={user.name} />
             <p><strong>Name:</strong> {user.firstName} {user.lastName}</p>
             <p><strong>Email:</strong> {user.email}</p>

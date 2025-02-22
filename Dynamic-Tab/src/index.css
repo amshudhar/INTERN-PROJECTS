@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: radial-gradient( circle farthest-corner at 96.1% 7.2%,  rgba(9,178,62,1) 0%, rgba(19,19,19,1) 100.2% );
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-fluid{
+  background-color: whitesmoke;
+  padding:0px 0px;
+  width: 500px;
+  height: 500px;
+  
+}
+
+
+.tabs {
+   
+   display: flex; 
+   align-items: center; 
+   margin: 10px; 
+   padding: 10px; 
+   background-color: rgb(60, 120, 0);
+  }
+.tab {
+   border-bottom-right-radius: 15px;
+   border-top-right-radius:15px;
+   padding: 15px; 
+   margin: 10px 5px;
+   margin-bottom: 20px;
+   cursor: pointer; 
+   position: relative; 
+   border: 1px solid #000000; 
+    background:rgb(240, 209, 255); 
+  }
+
+.tab.active { 
+  background: rgb(222, 222, 222); 
+  font-weight: bold; 
+}
+.close-btn {
+   margin-left:  15px; 
+   background:rgb(240, 209, 255);  
+   border: none; 
+   cursor: pointer; 
+  }
+
+.add-btn {
+   margin: 0px 10px;
+    background: rgb(18, 3, 74);
+     color: white; 
+     border: none; 
+     cursor: pointer; 
+     padding: 10px; 
+     border-radius: 5px; 
+  }
+
+.tab-content {
+   text-align: center;
+   font-size: x-large;
+   font-weight: 800;
+   padding: 20px;
+   border: #000000 1px solid;
+   background-color: whitesmoke; 
+   margin: 30px 10px;
+   
+  }
