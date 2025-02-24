@@ -1,0 +1,51 @@
+
+.main{
+  justify-items: center;
+  height: 90vh;
+  align-content: center;
+}
+
+body{
+  background-image: url("assets/black.jpg");
+  background-attachment: fixed;
+}
+
+
+.post {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 700px;
+text-align: center;
+background-color: black;
+border: none;
+color: white;
+border-radius: 50px;
+}
+
+.like-btn, .dislike-btn {
+  margin: 25px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.like-btn.active {
+  background-color: green;
+}
+
+.dislike-btn.active {
+  background-color: red;
+}
+
+.img{
+  width: 500px;
+  border-radius: 30px;
+}
+
+h1{
+  margin: 40px;
+}
